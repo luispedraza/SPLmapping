@@ -1,0 +1,5 @@
+<launch>
+   <node pkg="stage" name="simulator" type="stageros" args="$(find SPLmapping)/world/maze02.world"/>
+   <node pkg="teleop_base" name="teleop" type="teleop_base_keyboard" args="base_controller/command:=cmd_vel" />   
+   <!-- <node pkg="SPLmapping" name="slam" type="SPLmapping" />   -->
+</launch>

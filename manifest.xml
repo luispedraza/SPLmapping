@@ -1,0 +1,20 @@
+<package>
+  <description brief="SPLmapping">
+
+     SPLmapping
+
+  </description>
+  <author>Luis Pedraza</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/SPLmapping</url>
+  <depend package="roscpp"/>
+  <depend package="nav_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="opencv2"/>
+  <depend package="tf"/>
+  <depend package="ogre" />
+
+</package>
+
+

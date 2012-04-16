@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/SPLM/../Utils/Utils.h
+time.h
+-
+stdio.h
+-
+
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/SPLM/Bspline.cpp
+Bspline.h
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/SPLM/Bspline.h
+math.h
+-
+../Utils/Utils.h
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/SPLM/../Utils/Utils.h
+
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/SPLM/Bspline.h
+vector
+-
+Point.h
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/SPLM/Point.h
+newmat/newmat.h
+-
+iostream
+-
+iomanip
+-
+newmat/newmatio.h
+-
+
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/SPLM/Point.h
+

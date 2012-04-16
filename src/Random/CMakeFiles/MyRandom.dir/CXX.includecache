@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/Random/Rand.cpp
+Rand.h
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/Random/Rand.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/timeb.h
+-
+vector
+-
+
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/Random/Rand.h
+
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/Random/RandomLib.cpp
+RandomLib.h
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/Random/RandomLib.h
+
+/home/luis/Dropbox/Workspace/ROS/SPLmapping/src/Random/RandomLib.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/timeb.h
+-
+vector
+-
+
